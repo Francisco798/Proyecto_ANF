@@ -1,11 +1,11 @@
 const routes = [
-  {
+  /*{
     path: "/",
     component: () => import("layouts/MainLayout.vue"),
     children: [{ path: "", component: () => import("pages/Login-page.vue") }],
-  },
+  },*/
   {
-    path: "/panel",
+    path: "/",
     component: () => import("layouts/MainLayout.vue"),
     children: [{ path: "", component: () => import("pages/Panel-Card.vue") }],
   },
@@ -13,7 +13,7 @@ const routes = [
     path: "/catalogo",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: "", component: () => import("pages/Catalogo-Cuentas.vue") },
+      { path: "", component: () => import("pages/Catalogo_Cuentas.vue") },
     ],
   },
   {
